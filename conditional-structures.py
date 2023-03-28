@@ -63,14 +63,16 @@ elif media >= 7:
 else:
     print("Reprovado")'''
 
+'''Faça um Programa que verifique se uma letra digitada é "F" ou "M".
+Conforme a letra escrever: F - Feminino, M - Masculino, Sexo Inválido.'''
 print("Verifique se digitou M ou F")
 opcao = str(input("Insira uma letra, de preferencia M ou F."))
 letra = opcao
 print(letra)
 
 if letra == "M":
-    print("Você digitou M, de sexo Masculino")
+    print("M - Masculino")
 elif letra == "F":
-    print("Você digitou F, de sexo Feminino")
+    print("F - Feminino")
 else:
-    print("Desculpe, Tente Novamente")
+    print("Sexo inválido")
