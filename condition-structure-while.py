@@ -133,3 +133,4 @@ def regressiva(x): #chama a si mesmo
         regressiva(x-1)
 
 print(regressiva(4))
+
