@@ -1,6 +1,6 @@
 # Faça um programa que leia um vetor de 5 números inteiros e mostre-os.
 # listas podem ser utilizadas na representação de vetores.
-'''
+
 Numeros = []
 print("Informe 5 números")
 for i in range(5):
@@ -43,7 +43,7 @@ print('Números de alunos aprovados: ', aprovados)'''
 
 #Faça um programa que leia duas strings,
 #informe se as duas strings possuem o mesmo comprimento e são iguais
-'''
+
 palavra1 = input("Digite a primeira palavra: ")
 print = input("A primeira palavra foi: " + palavra1 + '\n' + "Seu tamanho é: " + str(len(palavra1)))
 
@@ -60,7 +60,6 @@ else:
 
 
 #informe 20 números e indentifique e liste os números, os números pares e impares
-'''
 lista_impa = []
 lista_par = []
 listaNumeros = []
@@ -87,20 +86,19 @@ turma = [[5.0, 4.5, 7.0, 5.2, 6.1], [2.1, 6.5, 8.0, 7.0, 6.7], [8.6, 7.0, 9.1, 8
 #Calcula a média
 media = 0
 
-'''
 
 #For para percorrer as linhas
-'''
+
 for i in range(3):
     #for para percorrer as colunas
     for j in range(5):
         media = media + turma[i][j]
     media = media / len(turma[i])
     print(media)
-'''
+
 
 #inserir dados nas linhas e colunas de uma matriz com 3 linhas e 3 colunas
-'''
+
 turma = []
 for i in range(2):
     #cria a linha vazia
@@ -111,24 +109,5 @@ for i in range(2):
     #adiciona a linha na matriz turma
     turma.append(linha)
 
-'''
 
-
-idade = []
-altura = []
-listaPessoasComIdade = []
-pessoasIdade = []
-listaPessoasComAltura = []
-pessoasAltura = []
-print("Idade e altura")
-for i in range(5):
-    # print(i)
-    idade.append((int(input('Idade: ' + str(i+1) + " "))))
-    pessoasIdade = listaPessoasComIdade[i]
-    for a in range(5):
-        altura.append((int(input('Altura: ' + str(a+1) + " "))))
-        pessoasAltura = listaPessoasComAltura[a]
-    
-    print(pessoasIdade)
-    print(pessoasAltura)
 
