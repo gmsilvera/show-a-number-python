@@ -38,7 +38,7 @@ aprovados = 0
 for nota in Notas:
     if nota >= 7.0:
         aprovados += 1
-print('Números de alunos aprovados: ', aprovados)'''
+print('Números de alunos aprovados: ', aprovados)
 
 
 #Faça um programa que leia duas strings,
@@ -56,7 +56,7 @@ if len(palavra1) == len(palavra2):
     else:
         print("As duas palavras são diferentes, mas o mesmo tamanho.")
 else:
-    print("As duas palavras são diferentes.")'''
+    print("As duas palavras são diferentes.")
 
 
 #informe 20 números e indentifique e liste os números, os números pares e impares
